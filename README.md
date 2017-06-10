@@ -11,11 +11,11 @@
 1. Clone the repo.
 2. Install required dependencies.
    * Run `npm install` to install Node.js packages.
-   * Run `bundle install --deployment to install Ruby Gems.
+   * Run `bundle install --deployment` to install Ruby Gems.
    * If you have not already installed `node-lambda` as a global package, run `npm install -g node-lambda`.
 3. Setup [configuration](#configuration) files.
    * Copy `.env.sample` file to `.env`.
-   * Copy `config/var_ev.env.sample` to `config/var_dev.env`.
+   * Copy `config/var_env.env.sample` to `config/var_dev.env`.
 
 ## Configuration
 
