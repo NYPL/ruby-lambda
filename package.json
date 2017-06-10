@@ -1,0 +1,20 @@
+{
+  "name": "rubyexample",
+  "version": "0.1.0",
+  "description": "rubyexample",
+  "main": "index.js",
+  "scripts": {
+    "deploy-dev": "node-lambda deploy -e dev -f config/var_dev.env -S config/event_sources_dev.json",
+    "deploy-qa": "node-lambda deploy -e qa -f config/var_qa.env -S config/event_sources_qa.json",
+    "deploy-production": "node-lambda deploy -e production -f config/var_production.env -S config/event_sources_production.json",
+    "test": "node-lambda run -j events/test_kinesis.json -x events/context.json"
+  },
+  "repository": {
+  },
+  "keywords": [
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
